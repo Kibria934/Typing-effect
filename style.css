@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+}
+main{
+        background-color: rgb(233, 231, 231);
+        margin: 0 auto;
+}
+
+/* flexbox design */
+
+.right-side img{
+        width: 700px;
+        height: 550px;
+        border: 1px solid ;
+        border-radius: 10px;
+        border-style:none;
+}
+ .right-side{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+.first-part{
+        display: flex;
+        width: 90%;
+         height: 100vh;
+         margin: 30px auto;
+         max-width: 1600px;
+}
+        /* Left side desingn */
+.left-side{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+ .effect {
+         font-size: 50px;
+         line-height: 70px;
+        color: rgb(3, 79, 141);
+       font-family: 'Roboto Condensed', sans-serif;
+       position: relative;
+ }
+ .effect span{
+         display: none;
+         color: paleturquoise;
+ }
+ .contain p{
+         color: rgb(2, 54, 70);
+         font-size: 20px;
+         text-align: justify;
+         font-weight: 800;
+ }
+ .contain .button{
+         margin: 20px 0px;
+         padding: 10px 40px;
+         color: rgb(3, 79, 141);
+         font-weight: 800;
+         font-size: 20px;
+         outline: none;
+         border: 1px soli ;
+         border-radius: 5px;
+         border-style: none;
+         background-color: rgb(243, 199, 128);
+ }
+        .button:hover{
+                background-color: rgba(236, 136, 42, 0.938);
+        }
+ .effect::before{
+         content: "Kibria Hossain";
+         position: absolute;
+         top: 0;
+         left: 238px;
+         animation: typing 8s linear infinite;
+ }
+@keyframes typing {
+        0%{
+                content: '|';
+        }
+        5%{
+                content: 'K|';
+        }
+        10%{
+                content: 'Ki';
+        }
+        15%{
+                content: 'Kib|';
+        }
+        20%{
+                content: 'Kibr|';
+        }
+        25%{
+                content: 'Kibri|';
+        }
+        30%{
+                content:'Kibria|';
+        }
+        35%{
+                content: 'Kibria |';
+        }
+        40%{
+                content: 'kibria H|';
+        }
+        45%{
+                content: 'Kibria Ho|';
+        }
+        50%{
+                content: 'Kibria Hos|';
+        }
+        55%{
+                content: 'Kibria Hoss|';
+        }
+        60%{
+                content: 'Kibria Hossa|';
+        }
+        65%{
+                content: 'Kibria Hossai|';
+        }
+        70%{
+                content: 'Kibria Hossain|';
+        }
+        75%,85%{
+              content: 'Kibria Hossain|';
+        }
+        86%{
+                content: 'Kibria Hossai|';
+        }
+        87%{
+                content: 'Kibria Hossa|';
+        }
+        88%{
+                content: 'Kibria Hoss|';
+        }
+        89%{
+                content: 'Kibria Hos|';
+        }
+        90%{
+                content: 'Kibria Ho|';
+        }
+        91%{
+                content: 'Kibria H|';
+        }
+        92%{
+                content: 'Kibria |';
+        }
+        93%{
+                content: 'Kibria|';
+        }
+        94%{
+                content: 'Kibri|';
+        }
+        95%{
+                content: 'Kibr|';
+        }
+        96%{
+                content: 'Kib|';
+        }
+        97%{
+                content: 'Ki|';
+        }
+        98%{
+                content: 'K|';
+        }
+        99%{
+                content: '|';
+        }
+        100%{
+                content: '|';
+        }
+
+        
+}
+
+
